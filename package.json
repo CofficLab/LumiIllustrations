@@ -1,0 +1,18 @@
+{
+  "name": "@coffic/lumi-illustrations",
+  "version": "2.0.0",
+  "description": "Shared PNG illustration resources for Coffic Swift and JavaScript projects.",
+  "type": "module",
+  "exports": {
+    "./*": "./Sources/LumiIllustrationsKit/Resources/Illustrations/*"
+  },
+  "files": [
+    "Sources/LumiIllustrationsKit/LumiIllustrationAsset.swift",
+    "Sources/LumiIllustrationsKit/Resources/Illustrations",
+    "Package.swift",
+    "README.md",
+    "ASSET-LICENSES.md",
+    "LICENSE"
+  ],
+  "sideEffects": false
+}
