@@ -15,5 +15,9 @@ let package = Package(
             name: "LumiIllustrationsKit",
             resources: [.copy("Resources/Illustrations")]
         ),
+        .testTarget(
+            name: "LumiIllustrationsKitTests",
+            dependencies: ["LumiIllustrationsKit"]
+        ),
     ]
 )

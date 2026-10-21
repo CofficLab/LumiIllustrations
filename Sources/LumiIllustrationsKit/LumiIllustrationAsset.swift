@@ -11,10 +11,18 @@ public enum LumiIllustrationAsset {
         let fileExtension = (fileName as NSString).pathExtension
         guard !resourceName.isEmpty, !fileExtension.isEmpty else { return nil }
 
-        return Bundle.module.url(
+        // SwiftPM copies the `Resources/Illustrations` directory into the resource
+        // bundle as `Illustrations`, so the lookup is relative to the bundle's
+        // resource root rather than to the package directory.
+        if let url = Bundle.module.url(
             forResource: resourceName,
             withExtension: fileExtension,
-            subdirectory: "Resources/Illustrations"
-        )
+            subdirectory: "Illustrations"
+        ) {
+            return url
+        }
+
+        // Fall back to a bundle that stores the illustrations at its root.
+        return Bundle.module.url(forResource: resourceName, withExtension: fileExtension)
     }
 }
