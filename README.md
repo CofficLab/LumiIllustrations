@@ -1,5 +1,7 @@
 # LumiIllustrations
 
+📖 English | [中文版](README_zh.md)
+
 Shared PNG illustration assets for Coffic Swift and JavaScript projects. This compact release contains 34 selected `-v4` illustrations and the six images from the package’s first commit, retained as original references. Applications should use the `-v4` image for a subject when one exists; `incident-log-illustration.png` remains the preferred character-style reference.
 
 ## Swift Package Manager
