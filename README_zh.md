@@ -7,7 +7,7 @@ Coffic Swift 与 JavaScript 项目共享的 PNG 插画资源。本精简版本�
 ## Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/CofficLab/LumiIllustrations.git", from: "2.0.0")
+.package(url: "https://github.com/lumi-softworks/LumiIllustrations.git", from: "2.0.0")
 ```
 
 将 `LumiIllustrationsKit` product 加入你的 target，然后解析资源 URL：

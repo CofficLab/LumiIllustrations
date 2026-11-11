@@ -7,7 +7,7 @@ Shared PNG illustration assets for Coffic Swift and JavaScript projects. This co
 ## Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/CofficLab/LumiIllustrations.git", from: "2.0.0")
+.package(url: "https://github.com/lumi-softworks/LumiIllustrations.git", from: "2.0.0")
 ```
 
 Add the `LumiIllustrationsKit` product to your target, then resolve an asset URL:
