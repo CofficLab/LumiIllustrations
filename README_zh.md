@@ -2,7 +2,7 @@
 
 📖 [中文版](README_zh.md) | [English](README.md)
 
-Coffic Swift 与 JavaScript 项目共享的 PNG 插画资源。本精简版本包含 34 张精选 `-v4` 插画，以及包首次提交时的六张图片（保留为原始参考）。应用在存在某主题的 `-v4` 图片时应优先使用它；`incident-log-illustration.png` 仍是首选的人物风格参考。
+Lumi Softworks 的 Swift 与 JavaScript 项目共享的 PNG 插画资源。本精简版本包含 34 张精选 `-v4` 插画，以及包首次提交时的六张图片（保留为原始参考）。应用在存在某主题的 `-v4` 图片时应优先使用它；`incident-log-illustration.png` 仍是首选的人物风格参考。
 
 ## Swift Package Manager
 
@@ -41,7 +41,7 @@ JavaScript 项目可以从 GitHub 安装已打标签的发布版本：
 ```json
 {
   "dependencies": {
-    "@coffic/lumi-illustrations": "github:CofficLab/LumiIllustrations#v2.0.0"
+    "@coffic/lumi-illustrations": "github:lumi-softworks/LumiIllustrations#v2.0.0"
   }
 }
 ```

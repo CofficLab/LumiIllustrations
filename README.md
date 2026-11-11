@@ -2,7 +2,7 @@
 
 📖 English | [中文版](README_zh.md)
 
-Shared PNG illustration assets for Coffic Swift and JavaScript projects. This compact release contains 34 selected `-v4` illustrations and the six images from the package’s first commit, retained as original references. Applications should use the `-v4` image for a subject when one exists; `incident-log-illustration.png` remains the preferred character-style reference.
+Shared PNG illustration assets for Lumi Softworks Swift and JavaScript projects. This compact release contains 34 selected `-v4` illustrations and the six images from the package’s first commit, retained as original references. Applications should use the `-v4` image for a subject when one exists; `incident-log-illustration.png` remains the preferred character-style reference.
 
 ## Swift Package Manager
 
@@ -41,7 +41,7 @@ JavaScript projects can install the tagged release from GitHub:
 ```json
 {
   "dependencies": {
-    "@coffic/lumi-illustrations": "github:CofficLab/LumiIllustrations#v2.0.0"
+    "@coffic/lumi-illustrations": "github:lumi-softworks/LumiIllustrations#v2.0.0"
   }
 }
 ```
